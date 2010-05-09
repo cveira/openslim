@@ -1,0 +1,9 @@
+OpenSLIM:
+---------------------------------------------------------------------------------------------------
+
+1. Restore de database on any SQL Server instance (2005 or higher).
+2. Re-apply the user mappings for SQL Server user 'openslim' as db_datareader and db_datawriter.
+3. Re-apply the user mappings for SQL Server user 'openslim-adm' as db_owner.
+4. Set a secure password for each of these users.
+5. Create and Verify a Machine ODBC DSN called 'OpenSLIM-current'.
+6. Launch OpenSLIM.
